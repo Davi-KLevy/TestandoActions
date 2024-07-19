@@ -14,9 +14,6 @@ jobs:
       - name: Checkout projeto
         uses: actions/checkout@v2
 
-      - name: Run tests
-        run: cd testandoactions/
-
       - name: tests
-        run: python manage.py test
+        run: python testandoactions/manage.py test
     
