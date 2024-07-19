@@ -17,6 +17,6 @@ jobs:
       - name: Run tests
         run: |
         
-        cd testandoactions/
+        cd ./testandoactions/
         python manage.py test
     
