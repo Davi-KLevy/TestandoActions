@@ -15,8 +15,5 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run tests
-        run: |
-        
-        cd ./testandoactions/
-        python manage.py test
+        run: python manage.py test
     
